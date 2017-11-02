@@ -1,0 +1,39 @@
+h1 {
+    font-family: Arial;
+    font-size: 75px;
+    color: #404040;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+#fizzbuzz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.circle {
+    font-family: Arial;
+    color: #404040;
+    font-weight: bold;
+    font-size: 35px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.fizzbuzz {
+    background-color: #F08080;
+}
+
+.fizz {
+    background-color: turquoise;
+}
+
+.buzz { 
+    background-color: lavender;
+}
